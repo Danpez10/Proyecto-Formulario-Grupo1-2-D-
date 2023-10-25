@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro - Farmacia Zenith</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <div class="background"></div>
+    
+    <div class="container">
+        <div class="img-container">
+            <img src="Logo Farmacia Sencillo Azul.png" alt="Logo de Farmacia Zenith">
+        </div>
+        <h1>Registro de Afiliado</h1>
+        <form id="afiliadoForm">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="telefono">Telefono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+            </div>
+            <div class="form-group">
+                <label for="domicilio">Domicilio:</label>
+                <input type="text" id="domicilio" name="domicilio" required>
+            </div>
+            <div class="form-group">
+                <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+                <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+            </div>
+            <div class="form-group">
+                <label for="dni">DNI:</label>
+                <input type="text" id="dni" name="dni" required>
+            </div>
+            <div class="form-group">
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" name="edad" required>
+            </div>
+            <div class="form-group">
+                <label for="nivelEstudios">Nivel de Estudios:</label>
+                <input type="text" id="nivelEstudios" name="nivelEstudios" required>
+            </div>
+            <div class="form-group">
+                <label for "profesion">Profesion:</label>
+                <input type="text" id="profesion" name="profesion">
+            </div>
+            <div class="form-group">
+                <label for="obraSocial">Obra Social:</label>
+                <input type="text" id="obraSocial" name="obraSocial" required>
+            </div>
+            <button type="submit">REGISTRARSE</button>
+        </form>
+    </div>
+    <script src="script.project.js"></script>
+</body>
+</html>
